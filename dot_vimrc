@@ -1,0 +1,5 @@
+" Config File for vim
+call plug#begin('~/.vim/plugged')
+Plug 'junegunn/fzf'
+Plug 'ledger/vim-ledger'
+call plug#end()
