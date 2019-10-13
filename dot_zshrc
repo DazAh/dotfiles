@@ -100,7 +100,7 @@ source $ZSH/oh-my-zsh.sh
 #
 
 #Custom Alias
-alias zshconfig="vim ~/.zshrc"
+alias zshconfig="chezmoi ~/.zshrc"
 alias musicsync="~/.musicsync.sh"
 alias ls="exa --group-directories-first --classify --git"
 alias cat="bat"
