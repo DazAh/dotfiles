@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='/home/darren/Documents/Programming/Rust/boringtun/src'
+let g:netrw_dirhist_2='/home/darren/.zfunc'
+let g:netrw_dirhist_1='/home/darren/.oh-my-zsh'
