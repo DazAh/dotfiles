@@ -108,6 +108,13 @@ alias find="fd"
 alias fv='vim $(fzf --height 40%)'
 alias vim='nvim'
 alias ohmyzsh="vim ~/.oh-my-zsh"
+alias weather='curl https://wttr.in/Liverpool'
+alias y='youtube-dl'
+
+function cheat() {
+    curl https://cheat.sh/$1
+}
+
 
 #
 #Completions (rustup, chezmoi?,)
