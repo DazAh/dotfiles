@@ -9,6 +9,8 @@ Plug 'tpope/vim-fugitive'
 
 " CoC LSP/Intellisense
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'neoclide/coc-python'
+
 
 " Rust"
 Plug 'rust-lang/rust.vim'
@@ -25,6 +27,10 @@ set hlsearch
 set incsearch
 set spell spelllang=en_gb
 set spelllang=en_gb
+set nobackup
+set nowritebackup
+set updatetime=300
+set cmdheight=2
 
 " CoC Highlighting
 autocmd FileType json syntax match Comment +\/\/.\+$+
