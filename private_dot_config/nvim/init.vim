@@ -25,7 +25,7 @@ set t_Co=256
 set showmatch
 set hlsearch
 set incsearch
-set spell spelllang=en_gb
+" set spell 
 set spelllang=en_gb
 set nobackup
 set nowritebackup
