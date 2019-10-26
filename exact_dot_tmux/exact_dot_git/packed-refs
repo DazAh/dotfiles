@@ -1,0 +1,6 @@
+# pack-refs with: peeled fully-peeled sorted 
+f4a00eef24b43c117be4e8acdcb36016bc4f33b0 refs/remotes/origin/gh-254
+3e5289d02242870bd4c540162ff39350404bd8b1 refs/remotes/origin/gh200-gh221
+01c91ba5231eb2e7b32cc2f47ac9022efae87962 refs/remotes/origin/master
+91f3f2ccd95709742e80c3041e1636bbabb33e66 refs/remotes/origin/optimizations
+f1e8c0cbe4457dd24418783566e4b5f7a542a04d refs/remotes/origin/os-clipboard
