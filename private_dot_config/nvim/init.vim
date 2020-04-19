@@ -9,13 +9,13 @@ Plug 'tpope/vim-fugitive'
 
 " CoC LSP/Intellisense
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'neoclide/coc-python'
+" Plug 'neoclide/coc-python'
 
 
 " Rust"
 Plug 'rust-lang/rust.vim'
-Plug 'racer-rust/vim-racer'
-Plug 'neoclide/coc-rls'
+" Plug 'racer-rust/vim-racer'
+" Plug 'neoclide/coc-rls'
 call plug#end()
 
 map <C-c> :NERDTreeToggle<CR>
