@@ -12,7 +12,6 @@ export ZSH="/home/darren/.oh-my-zsh"
 #Dotnet Disable telematry
 export DOTNET_CLI_TELEMETRY_OPTOUT=1
 
-
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
@@ -81,6 +80,13 @@ source $ZSH/oh-my-zsh.sh
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
 
+#
+#Completions (rustup, chezmoi?,)
+fpath+=~/.zfunc
+
+#Load insecure dirs (!!)
+autoload -Uz compinit && compinit -i
+
 # Preferred editor for local and remote sessions
  if [[ -n $SSH_CONNECTION ]]; then
    export EDITOR='vim'
@@ -115,11 +121,6 @@ alias y='youtube-dl'
 function cheat() {
     curl https://cheat.sh/$1
 }
-
-
-#
-#Completions (rustup, chezmoi?,)
-fpath+=~/.zfunc
 
 #starship rust shell
 eval "$(starship init zsh)"
