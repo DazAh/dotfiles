@@ -28,3 +28,5 @@ test -z "$PROFILEREAD" && . /etc/profile || true
 #fi
 
 export PATH="$HOME/.cargo/bin:$PATH"
+export KWIN_DRM_USE_EGL_STREAMS=1
+export MOZ_X11_EGL=1

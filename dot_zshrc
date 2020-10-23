@@ -117,6 +117,7 @@ alias vim='nvim'
 alias ohmyzsh="vim ~/.oh-my-zsh"
 alias weather='curl https://wttr.in/Liverpool'
 alias y='youtube-dl'
+alias zyp='zypper'
 
 function cheat() {
     curl https://cheat.sh/$1
