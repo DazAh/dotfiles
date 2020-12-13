@@ -31,6 +31,8 @@ set nobackup
 set nowritebackup
 set updatetime=300
 set cmdheight=2
+set noswapfile  " disable swapfile
+set number
 
 " CoC Highlighting
 autocmd FileType json syntax match Comment +\/\/.\+$+
